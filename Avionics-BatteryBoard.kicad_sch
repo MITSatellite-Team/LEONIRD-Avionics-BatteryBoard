@@ -417,6 +417,18 @@
 		(uuid "b778b503-dfdb-4190-bcdb-3054ed7a7a41")
 	)
 	(junction
+		(at 175.26 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d39bde07-04f4-4119-8bc6-f6d48fc8318b")
+	)
+	(junction
+		(at 177.8 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1b2c3dd-a5d7-46e2-b4d4-8545ff7c723d")
+	)
+	(junction
 		(at 255.27 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -524,6 +536,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 119.38) (xy 175.26 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ec7c4a-6570-4deb-aab7-11196f4e5a4b")
+	)
+	(wire
+		(pts
 			(xy 255.27 147.32) (xy 255.27 153.67)
 		)
 		(stroke
@@ -541,6 +563,16 @@
 			(type default)
 		)
 		(uuid "494b5c5e-1f3a-439a-8017-14b8efb90645")
+	)
+	(wire
+		(pts
+			(xy 175.26 152.4) (xy 185.42 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c45620-af35-4759-ab15-fc8ad06933f6")
 	)
 	(wire
 		(pts
@@ -564,6 +596,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 127) (xy 182.88 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "555fc438-3e20-455c-9187-e2cf7ab98566")
+	)
+	(wire
+		(pts
 			(xy 62.23 93.98) (xy 68.58 93.98)
 		)
 		(stroke
@@ -581,6 +623,16 @@
 			(type default)
 		)
 		(uuid "5c647fe1-eceb-4849-bc43-ed65b34623b8")
+	)
+	(wire
+		(pts
+			(xy 177.8 114.3) (xy 177.8 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69f24ea4-8ac7-4682-908a-a6c396f55f06")
 	)
 	(wire
 		(pts
@@ -604,6 +656,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 147.32) (xy 185.42 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "793953bd-32af-4cf9-92b3-600d0a7004f6")
+	)
+	(wire
+		(pts
 			(xy 119.38 109.22) (xy 66.04 109.22)
 		)
 		(stroke
@@ -621,6 +683,16 @@
 			(type default)
 		)
 		(uuid "912faeb3-bff5-4aa9-93c7-80ca569754c9")
+	)
+	(wire
+		(pts
+			(xy 182.88 139.7) (xy 185.42 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4a5322-a69f-42ff-9dab-26d2aa0ef728")
 	)
 	(wire
 		(pts
@@ -651,6 +723,16 @@
 			(type default)
 		)
 		(uuid "a631d570-6133-48a0-a252-ecce99b9f188")
+	)
+	(wire
+		(pts
+			(xy 180.34 124.46) (xy 180.34 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9f36936-d241-4a9c-8969-534f42124ffb")
 	)
 	(wire
 		(pts
@@ -691,6 +773,16 @@
 			(type default)
 		)
 		(uuid "ba77c61a-3e37-4876-8496-79e56301fdd5")
+	)
+	(wire
+		(pts
+			(xy 185.42 124.46) (xy 180.34 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baf61d48-e46a-4093-aa22-08b1efb74662")
 	)
 	(wire
 		(pts
@@ -754,6 +846,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 142.24) (xy 185.42 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc228d6-d82e-4e5c-8fc0-059033d43e47")
+	)
+	(wire
+		(pts
 			(xy 119.38 119.38) (xy 58.42 119.38)
 		)
 		(stroke
@@ -761,6 +863,16 @@
 			(type default)
 		)
 		(uuid "f0d8c9a1-a000-46c5-abd9-3d017437d006")
+	)
+	(wire
+		(pts
+			(xy 185.42 127) (xy 182.88 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f598f3c5-0e9f-40ed-a15e-08ad036d4898")
 	)
 	(wire
 		(pts
@@ -1700,6 +1812,102 @@
 		)
 	)
 	(sheet
+		(at 185.42 137.16)
+		(size 27.94 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a14151be-3b4e-4ebd-b550-33985a9ce2eb")
+		(property "Sheetname" "Solar Panels"
+			(at 185.42 136.4484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SolarPanels.kicad_sch"
+			(at 185.42 163.1446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "COIL_EN" input
+			(at 185.42 142.24 180)
+			(uuid "57d82074-0ba5-4561-84bd-1897ab020268")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA_BUS" bidirectional
+			(at 185.42 147.32 180)
+			(uuid "1cb2c57a-efa6-4e57-8bb6-413f2c985da3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL_BUS" bidirectional
+			(at 185.42 152.4 180)
+			(uuid "ccd09f70-a7eb-44e7-ad70-a5dd4ceb5d27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VCHRG" bidirectional
+			(at 185.42 157.48 180)
+			(uuid "d0071ee7-611e-48f7-9347-967a2efbe536")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MUX_RST" input
+			(at 185.42 139.7 180)
+			(uuid "eb1eba70-74c2-4c3d-901d-711429842227")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Avionics-BatteryBoard"
+				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 119.38 106.68)
 		(size 38.1 15.24)
 		(exclude_from_sim no)
@@ -1807,7 +2015,7 @@
 	)
 	(sheet
 		(at 185.42 95.25)
-		(size 27.94 26.67)
+		(size 27.94 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1833,7 +2041,7 @@
 			)
 		)
 		(property "Sheetfile" "Interfaces.kicad_sch"
-			(at 185.42 122.5046 0)
+			(at 185.42 130.1246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1843,7 +2051,7 @@
 				(justify left top)
 			)
 		)
-		(pin "SDA_BUS" bidirectional
+		(pin "SDA_BUS" input
 			(at 185.42 114.3 180)
 			(uuid "82c1e11f-646f-4cdd-9fa2-8cbfe37265d4")
 			(effects
@@ -1886,6 +2094,26 @@
 		(pin "HEATER0_ON" output
 			(at 185.42 99.06 180)
 			(uuid "502ea970-161d-48ca-b07c-51573ebca8cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "COIL_EN" output
+			(at 185.42 124.46 180)
+			(uuid "337439dd-497c-47d4-ada6-d63e652318e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MUX_RST" output
+			(at 185.42 127 180)
+			(uuid "3211699e-9d03-4618-87fe-a780a4916a97")
 			(effects
 				(font
 					(size 1.27 1.27)
