@@ -2075,7 +2075,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2125,7 +2125,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -3514,16 +3514,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 146.05) (xy 71.12 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fcf0bc6-70a5-4283-acce-96aa0e1e9d62")
-	)
-	(wire
-		(pts
 			(xy 71.12 123.19) (xy 88.9 123.19)
 		)
 		(stroke
@@ -3931,16 +3921,6 @@
 			(type default)
 		)
 		(uuid "c3137355-9afd-4896-bb5c-18dd5cae83a6")
-	)
-	(wire
-		(pts
-			(xy 68.58 143.51) (xy 71.12 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c31b0ff7-d8e5-4688-8db3-4b07b3d8ffe2")
 	)
 	(wire
 		(pts
@@ -5440,7 +5420,7 @@
 				)
 			)
 		)
-		(property "MPN" "C386084"
+		(property "MPN" "C3039694"
 			(at 17.78 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5740,6 +5720,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "MPN" "C2843756"
+			(at 58.42 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "9"
@@ -6267,6 +6258,17 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "MPN" "C3720382"
+			(at 95.25 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7301,7 +7303,7 @@
 	)
 	(rectangle
 		(start 120.65 118.872)
-		(end 172.466 129.794)
+		(end 156.21 129.794)
 		(stroke
 			(width 0)
 			(type dash)
@@ -7313,7 +7315,7 @@
 	)
 	(rectangle
 		(start 183.134 78.74)
-		(end 201.168 111.506)
+		(end 201.168 99.06)
 		(stroke
 			(width 0)
 			(type dash)
@@ -7325,7 +7327,7 @@
 	)
 	(rectangle
 		(start 232.664 78.74)
-		(end 250.19 111.506)
+		(end 250.19 99.06)
 		(stroke
 			(width 0)
 			(type dash)
@@ -8030,7 +8032,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C2803395"
+		(property "MPN" "C21397"
 			(at 162.56 100.33 0)
 			(effects
 				(font
@@ -8395,6 +8397,17 @@
 				(justify right)
 			)
 		)
+		(property "MPN" "C3720382"
+			(at 215.9 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "72a376c0-2545-46f0-877b-3d58118654d9")
 		)
@@ -8610,7 +8623,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C2803395"
+		(property "MPN" "C21397"
 			(at 172.72 100.33 0)
 			(effects
 				(font

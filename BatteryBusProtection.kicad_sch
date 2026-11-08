@@ -72,7 +72,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -122,7 +122,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -1649,7 +1649,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 34.925) (xy 147.32 45.72)
+			(xy 147.32 35.56) (xy 147.32 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1729,7 +1729,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 34.925) (xy 124.46 34.925)
+			(xy 133.35 35.56) (xy 124.46 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1849,7 +1849,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 34.925) (xy 124.46 45.72)
+			(xy 124.46 35.56) (xy 124.46 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1879,7 +1879,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 99.695) (xy 124.46 110.49)
+			(xy 124.46 100.33) (xy 124.46 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1989,7 +1989,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 99.695) (xy 147.32 110.49)
+			(xy 147.32 100.33) (xy 147.32 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1999,7 +1999,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 99.695) (xy 124.46 99.695)
+			(xy 133.35 100.33) (xy 124.46 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2059,7 +2059,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 99.695) (xy 147.32 99.695)
+			(xy 138.43 100.33) (xy 147.32 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2279,7 +2279,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 34.925) (xy 147.32 34.925)
+			(xy 138.43 35.56) (xy 147.32 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2487,7 +2487,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 135.89 34.925 270)
+		(at 135.89 35.56 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2497,7 +2497,7 @@
 		(dnp no)
 		(uuid "1572448c-3aa9-46ed-894b-0eb2a70a3e21")
 		(property "Reference" "R20"
-			(at 135.89 33.02 90)
+			(at 135.89 33.655 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2507,7 +2507,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 135.89 36.83 90)
+			(at 135.89 37.465 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2517,7 +2517,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 135.89 34.925 0)
+			(at 135.89 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2528,7 +2528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 34.925 0)
+			(at 135.89 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2539,7 +2539,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 135.89 34.925 0)
+			(at 135.89 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2549,8 +2549,8 @@
 				)
 			)
 		)
-		(property "MPN" "C237792"
-			(at 135.89 34.925 0)
+		(property "MPN" "C844862"
+			(at 135.89 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3505,7 +3505,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 135.89 99.695 270)
+		(at 135.89 100.33 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3515,7 +3515,7 @@
 		(dnp yes)
 		(uuid "b6251b5d-8c69-459a-9292-f551436e6668")
 		(property "Reference" "R23"
-			(at 135.89 97.79 90)
+			(at 135.89 98.425 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3525,7 +3525,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 135.89 101.6 90)
+			(at 135.89 102.235 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3535,7 +3535,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 135.89 99.695 0)
+			(at 135.89 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3546,7 +3546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 99.695 0)
+			(at 135.89 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3557,7 +3557,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 135.89 99.695 0)
+			(at 135.89 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3567,8 +3567,8 @@
 				)
 			)
 		)
-		(property "MPN" "C237792"
-			(at 135.89 99.695 0)
+		(property "MPN" "C844862"
+			(at 135.89 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3819,6 +3819,17 @@
 			)
 		)
 		(property "Description" "Low Loss PowerPath Controller, TSOT-23-6"
+			(at 170.18 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C514442"
 			(at 170.18 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4093,6 +4104,17 @@
 			)
 		)
 		(property "Description" "Low Loss PowerPath Controller, TSOT-23-6"
+			(at 170.18 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C514442"
 			(at 170.18 133.35 0)
 			(hide yes)
 			(show_name no)

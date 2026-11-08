@@ -872,7 +872,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -922,7 +922,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -5036,7 +5036,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C1972443"
 			(at 43.18 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5315,7 +5315,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C1972443"
 			(at 43.18 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -5601,6 +5601,17 @@
 				)
 			)
 		)
+		(property "MPN" "C265111"
+			(at 129.54 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "bf7a2d18-3530-4de2-89fd-abe9f1ffe589")
 		)
@@ -5778,7 +5789,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C1972443"
 			(at 43.18 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -6229,6 +6240,17 @@
 				)
 			)
 		)
+		(property "MPN" "C265111"
+			(at 33.02 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "c399e8e9-0f15-4399-8bb1-0ebcccd6836e")
 		)
@@ -6636,6 +6658,17 @@
 				)
 			)
 		)
+		(property "MPN" "C265111"
+			(at 226.06 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "2c08dd59-8e31-4da4-9b6b-3ad4c62e8463")
 		)
@@ -6806,6 +6839,17 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 81.28 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C265111"
 			(at 81.28 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -7011,6 +7055,17 @@
 				)
 			)
 		)
+		(property "MPN" "C265111"
+			(at 177.8 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "9bf1b75e-56b7-459d-9c9b-9f11892b9944")
 		)
@@ -7111,7 +7166,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C1972443"
 			(at 43.18 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -7482,7 +7537,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C1972443"
 			(at 43.18 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -8000,7 +8055,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C130026"
 			(at 213.36 127 0)
 			(hide yes)
 			(show_name no)
@@ -8856,7 +8911,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C1972443"
 			(at 43.18 142.24 0)
 			(hide yes)
 			(show_name no)

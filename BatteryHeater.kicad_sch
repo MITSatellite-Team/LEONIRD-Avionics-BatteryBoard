@@ -1961,7 +1961,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 106.68) (xy 80.01 108.585)
+			(xy 80.01 106.68) (xy 80.01 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2081,7 +2081,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 113.665) (xy 80.01 115.57)
+			(xy 80.01 114.3) (xy 80.01 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2257,7 +2257,7 @@
 				)
 			)
 		)
-		(property "MPN" "C2479067"
+		(property "MPN" "C2484712"
 			(at 92.71 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2723,6 +2723,17 @@
 				)
 			)
 		)
+		(property "MPN" "C2992634"
+			(at 184.15 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "62c274d7-fa67-4908-a576-782f7c61f3b5")
 		)
@@ -2891,6 +2902,17 @@
 		)
 		(property "Field5" "3W"
 			(at 170.434 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C2992634"
+			(at 167.64 111.76 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3075,6 +3097,17 @@
 				)
 			)
 		)
+		(property "MPN" "C2992634"
+			(at 184.15 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2204376d-9301-4c7a-9d42-a1b5480b085c")
 		)
@@ -3150,6 +3183,17 @@
 			)
 		)
 		(property "Description" "Fuse, small symbol"
+			(at 113.03 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C3158638"
 			(at 113.03 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3256,6 +3300,17 @@
 				)
 			)
 		)
+		(property "MPN" "C2992634"
+			(at 184.15 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5637191b-ebfa-468d-af41-3de8e21a58af")
 		)
@@ -3344,6 +3399,17 @@
 		)
 		(property "Field5" "3W"
 			(at 170.434 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C2992634"
+			(at 167.64 91.44 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3480,7 +3546,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 80.01 111.125 180)
+		(at 80.01 111.76 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3490,7 +3556,7 @@
 		(dnp no)
 		(uuid "bc4ca907-e1b2-4960-aeb2-7172a2599078")
 		(property "Reference" "R45"
-			(at 81.28 110.109 0)
+			(at 81.28 110.744 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3501,7 +3567,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 81.28 112.141 0)
+			(at 81.28 112.776 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3512,7 +3578,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 80.01 111.125 0)
+			(at 80.01 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3523,7 +3589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 111.125 0)
+			(at 80.01 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3534,7 +3600,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 80.01 111.125 0)
+			(at 80.01 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3545,7 +3611,7 @@
 			)
 		)
 		(property "MPN" "C2479067"
-			(at 80.01 111.125 0)
+			(at 80.01 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3829,7 +3895,7 @@
 				)
 			)
 		)
-		(property "MPN" "C2479067"
+		(property "MPN" "C23162"
 			(at 113.03 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3997,6 +4063,17 @@
 			)
 		)
 		(property "Description" "Generic DC optocoupler with NPN phototransistor output, pins order: anode/cathode/emitter/collector"
+			(at 102.87 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C17181710"
 			(at 102.87 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4181,6 +4258,17 @@
 		)
 		(property "Field5" "3W"
 			(at 170.434 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C2992634"
+			(at 167.64 101.6 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

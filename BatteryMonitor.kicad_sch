@@ -674,7 +674,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -724,7 +724,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -3035,6 +3035,17 @@
 				)
 			)
 		)
+		(property "MPN" "C76589"
+			(at 144.78 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6ec3ebf1-23d2-4c5e-beb2-a2cbfce374e8")
 		)
@@ -3623,6 +3634,17 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+			(at 132.08 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C76589"
 			(at 132.08 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4504,6 +4526,17 @@
 				)
 			)
 		)
+		(property "MPN" "C76589"
+			(at 132.08 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c783d486-c383-4473-96cf-37386ba37327")
 		)
@@ -4756,6 +4789,17 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+			(at 144.78 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C76589"
 			(at 144.78 119.38 0)
 			(hide yes)
 			(show_name no)

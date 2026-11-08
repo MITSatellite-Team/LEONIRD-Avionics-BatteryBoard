@@ -1229,6 +1229,17 @@
 				)
 			)
 		)
+		(property "MPN" "C133103"
+			(at 128.27 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "702ea7c5-249b-40c7-9bbf-8c4d6548e0a3")
 		)
@@ -1608,6 +1619,17 @@
 		)
 		(property "Flight" "DNI"
 			(at 160.02 117.602 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C133103"
+			(at 160.02 107.95 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
