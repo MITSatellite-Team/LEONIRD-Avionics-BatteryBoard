@@ -1762,261 +1762,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic_MountingPin:Conn_01x04_MountingPin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04_MountingPin"
-				(at 1.27 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x04_MountingPin_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -7.112) (xy 1.016 -7.112)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "Mounting"
-					(at 0 -6.731 0)
-					(effects
-						(font
-							(size 0.381 0.381)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 3.048)
-					(name "MountPin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -2877,12 +2622,6 @@
 		(uuid "e3f526cc-a276-49f0-b449-acf73bad158c")
 	)
 	(junction
-		(at 62.23 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01d08464-c510-40ae-95a1-d696f11fe1da")
-	)
-	(junction
 		(at 30.48 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3050,12 +2789,6 @@
 		(color 0 0 0 0)
 		(uuid "e0364f62-62b0-4eda-a3e3-a6516feaba8e")
 	)
-	(junction
-		(at 59.69 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e26656d9-f22f-46d8-a625-1c24babfb60c")
-	)
 	(no_connect
 		(at 71.12 168.91)
 		(uuid "0c4f4974-ccfc-4ceb-89c6-53158d04917a")
@@ -3144,16 +2877,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 46.99) (xy 46.99 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0358c86b-19f6-4588-b683-6d66f3d9d5c2")
-	)
-	(wire
-		(pts
 			(xy 71.12 118.11) (xy 88.9 118.11)
 		)
 		(stroke
@@ -3214,16 +2937,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 38.1) (xy 24.13 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d7276d0-cc58-4f68-b41e-64bc8d575dfa")
-	)
-	(wire
-		(pts
 			(xy 43.18 140.97) (xy 45.72 140.97)
 		)
 		(stroke
@@ -3231,16 +2944,6 @@
 			(type default)
 		)
 		(uuid "1023444d-5053-4991-b7bf-0364cfa337b9")
-	)
-	(wire
-		(pts
-			(xy 52.07 40.64) (xy 62.23 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10b41aa6-c160-49fc-8fcb-f4a2c179cf9c")
 	)
 	(wire
 		(pts
@@ -3261,26 +2964,6 @@
 			(type default)
 		)
 		(uuid "1d4a5688-2305-4cd3-96df-3594976e5efa")
-	)
-	(wire
-		(pts
-			(xy 59.69 43.18) (xy 59.69 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1db80437-a968-4811-9cf7-66361be19d6f")
-	)
-	(wire
-		(pts
-			(xy 31.75 43.18) (xy 31.75 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "207c35c5-e930-4d5c-ba44-e7a9891bc5e6")
 	)
 	(wire
 		(pts
@@ -3331,16 +3014,6 @@
 			(type default)
 		)
 		(uuid "2a158f23-9a0d-4169-bfd9-728fe3530a29")
-	)
-	(wire
-		(pts
-			(xy 24.13 35.56) (xy 31.75 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b44628e-83ea-4ca6-83e2-27fd8d3db56b")
 	)
 	(wire
 		(pts
@@ -3424,16 +3097,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 38.1) (xy 62.23 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f9f0f48-cbce-4126-ab36-83a2f9a35489")
-	)
-	(wire
-		(pts
 			(xy 30.48 113.03) (xy 45.72 113.03)
 		)
 		(stroke
@@ -3454,16 +3117,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 30.48) (xy 31.75 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cdfe540-9a2e-484d-b952-84035e0730b7")
-	)
-	(wire
-		(pts
 			(xy 71.12 135.89) (xy 88.9 135.89)
 		)
 		(stroke
@@ -3471,16 +3124,6 @@
 			(type default)
 		)
 		(uuid "5292f27c-caae-485e-98e9-4b84cad21a57")
-	)
-	(wire
-		(pts
-			(xy 59.69 33.02) (xy 52.07 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53537684-fc1b-442d-ab91-56313e8217d5")
 	)
 	(wire
 		(pts
@@ -3504,16 +3147,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 35.56) (xy 59.69 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f34cc16-d982-4f09-9d6d-321851a3bfca")
-	)
-	(wire
-		(pts
 			(xy 71.12 123.19) (xy 88.9 123.19)
 		)
 		(stroke
@@ -3521,16 +3154,6 @@
 			(type default)
 		)
 		(uuid "67581b55-4226-4b82-b42e-667528a7ab85")
-	)
-	(wire
-		(pts
-			(xy 62.23 30.48) (xy 62.23 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69ae502d-3fdd-489a-b4e1-0d9e80cdca00")
 	)
 	(wire
 		(pts
@@ -3661,16 +3284,6 @@
 			(type default)
 		)
 		(uuid "83794bb6-4bf5-4fb9-9cdd-26674fffff4c")
-	)
-	(wire
-		(pts
-			(xy 52.07 35.56) (xy 59.69 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84d87873-384e-4bfb-aa9d-741d2db9b7f4")
 	)
 	(wire
 		(pts
@@ -3861,16 +3474,6 @@
 			(type default)
 		)
 		(uuid "b3b00181-88a5-4db8-82b3-c43c30bd3592")
-	)
-	(wire
-		(pts
-			(xy 62.23 38.1) (xy 62.23 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b624081c-0712-4c80-975e-14da052aec0c")
 	)
 	(wire
 		(pts
@@ -4219,183 +3822,6 @@
 			(justify right)
 		)
 		(uuid "dd15a487-3bfe-4558-a0ae-77d803c99f45")
-	)
-	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
-		(at 46.99 35.56 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "006033af-a51f-40c0-b1b9-55b16c2d7cea")
-		(property "Reference" "J4"
-			(at 46.99 27.686 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "205338-0004"
-			(at 46.99 29.718 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Pico-Lock_205338-0004_1x04-1MP_P2.00mm_Horizontal"
-			(at 46.99 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 46.99 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "C916325"
-			(at 46.99 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2ee07c6c-a01a-47ae-a544-d4c8bbc42e5d")
-		)
-		(pin "2"
-			(uuid "a20503c2-e848-4e68-8423-9260da64005c")
-		)
-		(pin "3"
-			(uuid "f46a1259-8872-41d2-bbb1-2b7d3b583001")
-		)
-		(pin "4"
-			(uuid "d39d0fa7-58f3-4191-aa9d-ca57012a1fa3")
-		)
-		(pin "MP"
-			(uuid "b83946a1-1121-497a-926c-d6c835b805f4")
-		)
-		(instances
-			(project "Avionics-BatteryBoard"
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e0cf694e-e610-403b-8199-ed27af9d964d"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 46.99 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "070effd0-d8f5-4835-b446-fd5257b1b20e")
-		(property "Reference" "#PWR034"
-			(at 46.99 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 46.99 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "29cf575b-e55d-4f1e-b865-1839c9a1f34d")
-		)
-		(instances
-			(project "Avionics-BatteryBoard"
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e0cf694e-e610-403b-8199-ed27af9d964d"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4780,83 +4206,6 @@
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e0cf694e-e610-403b-8199-ed27af9d964d"
 					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 59.69 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3003a367-6068-4f58-b240-3565f495cb79")
-		(property "Reference" "#PWR031"
-			(at 59.69 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 47.244 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "880bf107-9840-409a-8593-d6f0816d0b0d")
-		)
-		(instances
-			(project "Avionics-BatteryBoard"
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e0cf694e-e610-403b-8199-ed27af9d964d"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -6287,83 +5636,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 31.75 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ad3c353e-7273-45f1-ac3c-64f72d5748aa")
-		(property "Reference" "#PWR030"
-			(at 31.75 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 31.75 47.244 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c3f96342-26a3-45a7-92fd-2c899c190f78")
-		)
-		(instances
-			(project "Avionics-BatteryBoard"
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e0cf694e-e610-403b-8199-ed27af9d964d"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 88.9 113.03 0)
 		(unit 1)
@@ -6435,83 +5707,6 @@
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e0cf694e-e610-403b-8199-ed27af9d964d"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 62.23 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b38a1055-266e-4fb6-9581-fffc190b89a7")
-		(property "Reference" "#PWR028"
-			(at 62.23 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBATT"
-			(at 62.23 26.416 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 62.23 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c2e65a75-0d86-4301-b323-b9e72c506dd3")
-		)
-		(instances
-			(project "Avionics-BatteryBoard"
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e0cf694e-e610-403b-8199-ed27af9d964d"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6987,83 +6182,6 @@
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e0cf694e-e610-403b-8199-ed27af9d964d"
 					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 31.75 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d728ffce-b283-49a2-88cd-c185fde15acc")
-		(property "Reference" "#PWR027"
-			(at 31.75 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBATT"
-			(at 31.75 26.416 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 31.75 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d215b713-3a56-4490-8147-959ab60ee441")
-		)
-		(instances
-			(project "Avionics-BatteryBoard"
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e0cf694e-e610-403b-8199-ed27af9d964d"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8786,5 +7904,190 @@
 			)
 		)
 		(uuid "94fb23c8-eb32-4f76-88e8-4b6b9a977276")
+	)
+	(wire
+		(pts
+			(xy 24.13 35.56) (xy 29.21 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f6f5cd0-45c0-4ab8-96b6-de8663da55ea")
+	)
+	(wire
+		(pts
+			(xy 24.13 38.1) (xy 29.21 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a365736-e946-45b2-9ff4-f53d64b3bdf6")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 35.56 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e5bc08d2-247a-46ae-ae85-afbc9818a24d")
+		(property "Reference" "#PWR097"
+			(at 35.56 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SYSTEM_VSS"
+			(at 39.37 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61357e62-3233-45cf-a2db-e91eade54f8a")
+		)
+		(instances
+			(project "Avionics-BatteryBoard"
+				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e0cf694e-e610-403b-8199-ed27af9d964d"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 29.21 38.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7bf42259-c531-4926-94fe-43033ac757ce")
+		(property "Reference" "#PWR098"
+			(at 25.4 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SYSTEM_VDD"
+			(at 39.37 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 29.21 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1db30671-7c6a-4e3f-9c6d-4dddc501e812")
+		)
+		(instances
+			(project "Avionics-BatteryBoard"
+				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e0cf694e-e610-403b-8199-ed27af9d964d"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "Access port (AccessBoard J4)\nPin 1 = SYSTEM_VSS, pin 2 = SYSTEM_VDD\nBattery side: charges with inhibits open"
+		(exclude_from_sim no)
+		(at 12.954 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c6545fee-b892-4ef3-82bb-46c41560fa84")
 	)
 )
