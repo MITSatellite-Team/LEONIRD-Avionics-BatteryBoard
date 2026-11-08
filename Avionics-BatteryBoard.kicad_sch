@@ -1879,16 +1879,6 @@
 				(justify left)
 			)
 		)
-		(pin "VCHRG" bidirectional
-			(at 185.42 157.48 180)
-			(uuid "d0071ee7-611e-48f7-9347-967a2efbe536")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "MUX_RST" input
 			(at 185.42 139.7 180)
 			(uuid "eb1eba70-74c2-4c3d-901d-711429842227")
