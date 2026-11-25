@@ -799,7 +799,7 @@
         "uuid": "b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
       }
     ],
-    "used_designators": "#PWR1-61,#PWR63-70,#PWR116-117,C1-15,D1-7,F1-14,H1-4,J1-12,MP1-2,Q1-12,R1-57,TH1-4,TP1-2,U1-7,U11",
+    "used_designators": "#PWR1-61,#PWR63-70,#PWR82,#PWR99,#PWR116-117,C1-15,D1-7,F1-14,H1-4,J1-12,J15,J17,MP1-2,Q1-12,R1-57,TH1-4,TP1-2,U1-7,U11",
     "variants": []
   },
   "sheets": [
@@ -842,6 +842,10 @@
     [
       "e0cf694e-e610-403b-8199-ed27af9d964d",
       "Interfaces"
+    ],
+    [
+      "a14151be-3b4e-4ebd-b550-33985a9ce2eb",
+      "Solar Panels"
     ]
   ],
   "text_variables": {},
